@@ -28,7 +28,7 @@ Connect-CloudServices -Service "M365"
 
 #### Get Microsoft 365 user activity logs
 ```PowerShell
-Get-M365UserActivity -StartDate "2023-01-01" -EndDate "2023-01-31"
+Get-M365UserActivity -UserName "user@example.com" -Type "Email"
 ```
 
 #### Monitor Microsoft 365 license usage
